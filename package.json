@@ -1,8 +1,8 @@
 {
-  "name": "project_name",
+  "name": "r256w7",
   "version": "1.0.0",
   "description": "Test GitHub Actions Deploy",
-  "homepage": "https://{login}.github.io/{project_name}",
+  "homepage": "https://jaguars82.github.com/r256w7",
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
@@ -15,7 +15,7 @@
   "keywords": [
     "github-actions"
   ],
-  "author": "Alyona Siprikova",
+  "author": "Egor Sechin",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
