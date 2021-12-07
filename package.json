@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .",
     "build": "rm -r dist || true && parcel build src/index.html --out-dir dist",
-    "deploy": ""
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "github-actions"
@@ -20,6 +20,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "eslint": "^8.3.0",
+    "gh-pages": "^3.2.3",
     "mocha": "^9.1.3",
     "parcel-bundler": "1.12.3"
   }
