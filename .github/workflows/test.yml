@@ -17,7 +17,7 @@ jobs:
       - run: npm install
 
       - name: Run the lint script
-        run: npm run lintпше
+        run: npm run lint
 
   test:
     needs: lint
