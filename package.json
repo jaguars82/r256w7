@@ -9,7 +9,7 @@
     "test": "mocha ./tests/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .",
-    "build": "rm -r dist || true && parcel build src/Index.html --out-dir dist --public-url ./",
+    "build": "rm -r dist || true && parcel build src/index.html --out-dir dist --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [
