@@ -5,6 +5,20 @@ on:
     branches: main
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - run: npm install
+
+      - name: Run the lint script
+        run: npm run lintпше
+
   test:
     runs-on: ubuntu-latest
 
