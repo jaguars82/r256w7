@@ -15,7 +15,7 @@ jobs:
           node-version: '14'
 
       - run: npm install
-      - run: npm run biuld
+      - run: npm run build
 
       - name: Deploy with gh-pages
         run: |
