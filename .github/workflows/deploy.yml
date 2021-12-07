@@ -1,11 +1,12 @@
 name: Deploy
 
-on: 
-  push:
-    branches: deploy
+on:
+  push: 
+    branches:
+        - deploy
 
 jobs:
-  deploy:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
